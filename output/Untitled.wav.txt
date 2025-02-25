@@ -1,0 +1,7 @@
+SPEAKER_02:  Okay, so Dr. Morris, what is your position here at NSU in terms of teaching and in the WCC?
+SPEAKER_00:  So I am an associate professor in the Department of Communication, Media, and the Arts,
+SPEAKER_00:  and I'm also a faculty coordinator at the Writing and Communication Center.
+SPEAKER_02:  And what is your name, major, and year?
+SPEAKER_01:  My name is Zach Timmons.
+SPEAKER_01: I am a first-year grad student in the CRDM program, Composition, Rhetoric, and Digital Media.
+SPEAKER_01:  This is my...

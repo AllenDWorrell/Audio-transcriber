@@ -1,0 +1,5 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/f9cc6237-df79-489c-9743-7085f30fa595/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Audiotranscriber",
+    "appService.deploySubpath": "."
+}
