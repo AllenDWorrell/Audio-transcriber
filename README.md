@@ -6,8 +6,14 @@ for transcription and [WhisperX](https://github.com/m-bain/whisperX) +
 [pyannote](https://github.com/pyannote/pyannote-audio) for alignment and
 speaker diarization.
 
-![Audio Transcriber UI showing a speaker-labeled transcript](docs/screenshot-transcriber.png)
-![About page](docs/screenshot-about.png)
+## Screenshots
+
+<table>
+<tr>
+<td><img src="docs/screenshot-transcriber.png" width="400" alt="Audio Transcriber UI showing a speaker-labeled transcript"></td>
+<td><img src="docs/screenshot-about.png" width="400" alt="About page"></td>
+</tr>
+</table>
 
 ## Features
 
