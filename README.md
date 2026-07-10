@@ -91,9 +91,3 @@ output/                 Generated transcripts (gitignored)
   transcript as JSON and the name of the saved `.txt` file
 - `GET /api/download/<filename>` — download a generated transcript
 
-## Deployment
-
-A GitHub Actions workflow (`.github/workflows/master_audiotranscriber.yml`)
-deploys this app to Azure App Service on pushes to `master`. Set `HF_TOKEN`
-and the other environment variables above as App Service configuration
-settings rather than committing a `.env` file.
