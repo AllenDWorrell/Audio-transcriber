@@ -1,0 +1,18 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Uploaded audio and generated transcripts (runtime data, not source)
+uploads/*
+!uploads/.gitkeep
+output/*
+!output/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/

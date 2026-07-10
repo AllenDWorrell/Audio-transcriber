@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}About — Audio Transcriber{% endblock %}
+
+{% block content %}
+<main class="about-page">
+    <div class="about-icon">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="9" y="2" width="6" height="12" rx="3"/>
+            <path d="M5 10v1a7 7 0 0014 0v-1M12 18v4M9 22h6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+    <h1 data-i18n="aboutHeading">About</h1>
+
+    <p data-i18n="aboutP1">
+        Audio Transcriber is a small utility for turning spoken audio into a
+        speaker-labeled transcript.
+    </p>
+
+    <p data-i18n="aboutP2">
+        This tool was made for those moments where you have a meeting recording,
+        an interview, or a voice memo, and need it as readable, timestamped text
+        instead of scrubbing through audio by hand.
+    </p>
+
+    <p data-i18n="aboutP3">
+        Uploaded audio is transcribed and diarized locally, using OpenAI Whisper
+        and WhisperX right on the machine running the server. No audio is ever
+        sent to a third-party service.
+    </p>
+
+    <p><span data-i18n="aboutP4">This is an open source project, </span><a href="https://github.com/AllenDWorrell/Audio-transcriber" target="_blank" rel="noopener" data-i18n="aboutSourceLink">check out the source code</a>.</p>
+</main>
+{% endblock %}
